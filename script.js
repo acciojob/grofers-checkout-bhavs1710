@@ -1,5 +1,4 @@
-
-  const priceElements = document.querySelectorAll('[data-ns-test="price"]');
+const priceElements = document.querySelectorAll('[data-ns-test="price"]');
 
 // Initialize a variable to store the total price
 let totalPrice = 0;
