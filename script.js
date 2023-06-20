@@ -1,10 +1,5 @@
-const getSumBtn = document.createElement("button");
-getSumBtn.append("Get Total Price");
-document.body.appendChild(getSumBtn);
 
-const getSum = () => {
-//Add your code here
-	const priceElements = document.querySelectorAll('[data-ns-test="price"]');
+  const priceElements = document.querySelectorAll('[data-ns-test="price"]');
 
 // Initialize a variable to store the total price
 let totalPrice = 0;
@@ -17,10 +12,3 @@ priceElements.forEach((element) => {
 // Set the total price in the table
 const totalElement = document.querySelector('[data-ns-test="grandTotal"]');
 totalElement.textContent = totalPrice;
-
-
-  
-};
-
-getSumBtn.addEventListener("click", getSum);
-
